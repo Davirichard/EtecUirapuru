@@ -48,6 +48,11 @@ main section{
   margin: 0 auto;
 }
 
+main .container{
+  padding: 0 10px;
+  margin-top: 50px;
+}
+
 .globalTopBar{
     width: 100%;
     height: auto;
@@ -463,7 +468,6 @@ main #slide-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
  }
 
  .section-divulga-vest .box-left-vestibulinho{
@@ -482,10 +486,6 @@ main #slide-container {
 
  .img-vestibulinho:hover{
   scale: 1.1;
- }
-
- .section-divulga-vest .box-right-vestibulinho{
-  margin: 0 20px;
  }
 
  .box-right-vestibulinho h3{
@@ -527,7 +527,6 @@ main #slide-container {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  padding: 0 20px;
  }
 
  .box-verMais h2{
@@ -586,15 +585,45 @@ main #slide-container {
   overflow: hidden;
  }
 
- .box-destaque img{
+ .box-destaque .imgDestaque1{
+  background-image: url(../imagens/destaque1.jpg);
+  background-size: cover;
   width: 100%;
   height: 220px;
   transition: 0.3s;
  }
 
- .box-destaque img:hover{
-  scale:1.1;
+ .box-destaque .imgDestaque2{
+  background-image: url(../imagens/destaque2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 220px;
+  transition: 0.3s;
  }
+ .box-destaque .imgDestaque3{
+  background-image: url(../imagens/destaque3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 220px;
+  transition: 0.3s;
+ }
+ .box-destaque .imgDestaque4{
+  background-image: url(../imagens/destaque4.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 220px;
+  transition: 0.3s;
+ }
+
+[class^="box-destaque"] .imgDestaque1:hover,
+[class^="box-destaque"] .imgDestaque2:hover,
+[class^="box-destaque"] .imgDestaque3:hover, 
+[class^="box-destaque"] .imgDestaque4:hover{
+  transform: scale(1.1);
+}
 
  .box-destaque h3{
   color: var(--color-title);
@@ -606,7 +635,6 @@ main #slide-container {
  main .box-sections{
   display: flex;
   margin-bottom: 100px;
-  padding: 0 20px;
  }
 
                                                                                 /*SESSÃO EVENTOS A ESQUERDA DA SESSÃO PAI*/
@@ -727,7 +755,6 @@ main #slide-container {
  .section-links .flex-links{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
  }
 
 .section-links .box-links{
