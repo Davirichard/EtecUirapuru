@@ -167,6 +167,24 @@ background-color: white;
 
 }
 
+@media screen and (max-width:903px){
+  .container-rodape .box-left-rodape{
+    flex-wrap: wrap;
+    padding:0 0 0 20px;
+    width: 40%;
+  }
+
+  .box-left-rodape .left-element{
+    color: var(--color-terciary);
+    border-right:none;
+    margin-right: 0;
+  }
+
+  .box-right-rodape{
+    width: 60%;
+  }
+}
+
 @media screen and (max-width:900px){
 
     
@@ -249,6 +267,49 @@ background-color: white;
         width: 100%;
         margin: 20px auto;
       }
+}
+
+@media screen and (max-width:650px){
+  #cps-rodape .container-rodape{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-rodape .box-left-rodape{
+    display: flex;
+  }
+
+  .container-rodape .box-left-rodape{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-left-rodape .left-element{
+    padding:10px;
+    border-right:none;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .box-right-rodape{
+    width: 100%;
+  }
+
+  .container-rodape .box-right-rodape .background-cps{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .background-cps img{
+    width: 80px;
+    position: relative;
+    top: 50px;
+    right:40vw;
+    padding-left: 5px;
+  }
+  
 }
 
 @media screen and (max-width:600px){
@@ -345,6 +406,25 @@ background-color: white;
   .box-sections .section-links{
     margin-right: 0;
    }
+
+   .flex-transparencia{
+    flex-wrap: wrap;
+    padding: 80px 10px;
+  }
+
+  .flex-transparencia button{
+    margin: 10px 10px;
+    width: 70%;
+    min-width: 120px;
+    border: none;
+    background-color: #243e63;
+    border-radius: 100px;
+    transition: 0.3s;
+  }
+
+  .flex-transparencia button p{
+    padding: 15px 0;
+  }
 }
 
 @media screen and (max-width:400px){

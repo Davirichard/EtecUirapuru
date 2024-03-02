@@ -826,14 +826,14 @@ main .box-sections {
 
 .container-rodape .box-left-rodape {
   display: flex;
-  padding: 100px;
+  padding: 100px 0 100px 20px;
+  width: 60%;
 }
 
 .box-left-rodape .left-element {
   color: var(--color-terciary);
   border-right: 1px solid #027086;
   margin-right: 20px;
-  padding-right: 20px;
   height: 100px;
 }
 
@@ -848,10 +848,6 @@ main .box-sections {
   line-height: 25px;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
-}
-
-.box-left-rodape {
-  width: 60%;
 }
 
 .box-right-rodape {
@@ -870,8 +866,7 @@ main .box-sections {
 }
 
 .background-cps .flex-rede {
-  position: relative;
-  left: -150px;
+  z-index: 2;
 }
 
 .background-cps .flex-rede i {
@@ -888,7 +883,6 @@ main .box-sections {
 .background-cps img {
   width: 125px;
   position: relative;
-  left: -80px;
 }
 
 #cps-rodape .direitos {
@@ -917,12 +911,13 @@ main .box-sections {
   margin: 0 auto;
   justify-content: center;
   display: flex;
-  padding: 80px 20px;
+  padding: 80px 10px;
 }
 
 .flex-transparencia button {
-  margin: 0 100px;
+  margin: 0 20px;
   width: 250px;
+  min-width: 120px;
   border: none;
   background-color: #243e63;
   border-radius: 100px;
