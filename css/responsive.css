@@ -348,6 +348,14 @@
   .flex-transparencia button p {
     padding: 15px 0;
   }
+  .box-destaque h3 {
+    color: var(--color-title);
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    width: 70%;
+    padding: 0 10px;
+  }
 }
 @media screen and (max-width: 400px) {
   .section-links .box-links {
