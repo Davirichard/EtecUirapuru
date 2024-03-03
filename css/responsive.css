@@ -328,6 +328,9 @@
     margin: 20px 0;
     max-width: 100%;
   }
+  .boxCpsElements button {
+    padding: 10px 20px;
+  }
   .box-left-vestibulinho .img-vestibulinho {
     height: 250px;
   }
@@ -394,9 +397,6 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .boxCpsElements button {
-    padding: 10px 20px;
-  }
   .box-destaque h3 {
     color: var(--color-title);
     font-size: 13px;

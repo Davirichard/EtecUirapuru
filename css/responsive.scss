@@ -403,6 +403,10 @@ background-color: white;
     max-width: 100%;
 }
 
+.boxCpsElements button{
+  padding: 10px 20px;
+}
+
 .box-left-vestibulinho .img-vestibulinho{
   height: 250px;
  }
@@ -483,10 +487,6 @@ background-color: white;
 }
 
 @media screen and (max-width:450px){
-
-  .boxCpsElements button{
-    padding: 10px 20px;
-  }
   
   .box-destaque h3{
     color: var(--color-title);
