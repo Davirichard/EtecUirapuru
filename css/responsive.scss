@@ -407,6 +407,13 @@ background-color: white;
     margin-right: 0;
    }
 
+   .background-cps .flex-rede i{
+    color:var(--color-secundary);
+    font-size: 40px;
+    transition: 0.3s;
+    margin: 0 15px;
+  }
+
    .flex-transparencia{
     flex-wrap: wrap;
     padding: 80px 10px;
