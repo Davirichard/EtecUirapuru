@@ -384,6 +384,45 @@ background-color: white;
 }
 
 @media screen and (max-width:510px){
+
+  .slide .opacityCps{
+    width: 100%;
+    height: 400px;
+  }
+
+  .boxCpsElements span{
+    font-size: 12.5px;
+}
+
+  .boxCpsElements h1{
+    color: var(--color-terciary);
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 200;
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+.box-left-vestibulinho .img-vestibulinho{
+  height: 250px;
+ }
+
+
+.box-right-vestibulinho h3{
+  font-size: 18px;
+  font-weight: 400;
+ }
+
+ .box-right-vestibulinho p{
+  font-size: 13px;
+ }
+
+ .box-right-vestibulinho button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 13px;
+ }
+
   .section-links .box-links{
     display: flex;
     align-items: center;
@@ -440,6 +479,21 @@ background-color: white;
     font-weight: 400;
     width: 70%;
     padding: 0 10px;
+   }
+}
+
+@media screen and (max-width:450px){
+
+  .boxCpsElements button{
+    padding: 10px 20px;
+  }
+  
+  .box-destaque h3{
+    color: var(--color-title);
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0;
+    margin-left: 5px;
    }
 }
 
