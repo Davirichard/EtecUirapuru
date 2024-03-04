@@ -563,15 +563,15 @@ background-color: white;
  .flex-transparencia button p{
   font-size: 15px;
 }
-
- .final-rodCps img{
-  width: 100%;
-}
 }
 
 @media screen and (max-width:460px){
   #cps-rodape .direitos p{
     font-size: 13px;
+  }
+
+  .final-rodCps img{
+    width:150px;
   }
 }
 
