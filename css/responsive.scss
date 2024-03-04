@@ -486,6 +486,95 @@ background-color: white;
    }
 }
 
+@media screen and (max-width:500px){
+
+  #h2{
+    font-size: 25px;
+  }
+
+  #img-divisor{
+      width: 100%;
+      height: 15px;
+      margin-top: 5px;
+  }
+
+  .flex-agenda .data h3{
+    font-size: 35px;
+   }
+
+  .flex-agenda p{
+    font-size: 13px;
+   }
+
+  .globalTopBar .logoGovSp{
+    width: 60%;
+    background-color: black;
+    padding: 15px 0 15px 40px;
+    border-radius: 0 100px 100px 0;
+    min-width: 200px;
+}
+
+  .globalTopBar .logoGovSp img{
+    width: 80%;
+    min-width: 150px;
+}
+
+  .cps-header-container{
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.cps-header-container img{
+  width: 100px;
+}
+
+  .cps-header-container .boxSearch{
+    display: none;
+}
+
+.boxSearch-mobile{
+  display: flex;
+  width: 90%;
+  margin: 0 20px  20px 20px;
+}
+
+
+.box-verMais i{
+  font-size: 18px;
+ }
+
+ .box-verMais span{
+  font-size: 16px;
+ }
+
+ .box-eventos h2{
+  width: 130px;
+ } 
+
+.flex-eventos i{
+  font-size: 18px;
+ }
+
+ .flex-eventos span{
+  font-size: 16px;
+ }
+
+ .flex-transparencia button p{
+  font-size: 15px;
+}
+
+ .final-rodCps img{
+  width: 100%;
+}
+}
+
+@media screen and (max-width:460px){
+  #cps-rodape .direitos p{
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width:450px){
   
   .box-destaque h3{
@@ -495,12 +584,33 @@ background-color: white;
     padding: 0;
     margin-left: 5px;
    }
+
+   #cps-rodape .direitos{
+    padding: 10px 10px;
+  }
+  
 }
 
 @media screen and (max-width:400px){
   .section-links .box-links{
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 45%;
    }
+
+}
+
+@media screen and (max-width:360px){
+  #h2{
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  #cps-rodape .direitos p{
+    font-size: 11.5px;
+  }
+
+  .flex-transparencia button p{
+    font-size: 13px;
+  }
 }
