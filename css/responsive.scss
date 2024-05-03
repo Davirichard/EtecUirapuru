@@ -19,6 +19,7 @@
 }
 
 @media screen and (max-width:930px){
+
     header{
         display: none;
     }
@@ -26,6 +27,14 @@
     .cps-header-container .box-mobile{
         display: block;
       }
+
+    .cps-header-container{
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      z-index: 999;
+    }
     
 .cps-header-container .nav-list {
     display: block;
@@ -529,14 +538,18 @@ background-color: white;
   width: 100px;
 }
 
+.cps-header-container{
+  flex-wrap: wrap;
+}
+
   .cps-header-container .boxSearch{
     display: none;
 }
 
 .boxSearch-mobile{
   display: flex;
-  width: 90%;
-  margin: 0 20px  20px 20px;
+  width: 100%;
+  margin: 20px 20px  20px 20px;
 }
 
 

@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!--==== Box-icons ====-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <div class="globalTopBar">
@@ -46,96 +51,109 @@
             <i class='bx bx-search-alt-2'></i>
         </div>
         <div class="box-mobile">
-            <nav class="navbar-mobi">
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+            <nav class="nav container">
+                <div class="nav__data">
+                   
+                   <div class="nav__toggle" id="nav-toggle">
+                      <i class="ri-menu-line nav__burger"></i>
+                      <i class="ri-close-line nav__close"></i>
+                   </div>
                 </div>
-
-                <ul class="nav-list">
-                    <li id="sub-mobile"><a href="#">Institucional<i class='bx bx-chevron-down'></i></a>
-                        <ul class="sub-menu">
-                            <li><a href="#" class="sub-link">Etec Uirapuru</a></li>
-                            <li><a href="#" class="sub-link">Missão, visão e valores</a></li>
-                            <li><a href="#" class="sub-link">PPG - Plano plurianual de gestão</a></li>
-                            <li><a href="#" class="sub-link">Equipe</a></li>
-                            <li><a href="#" class="sub-link">Localização</a></li>
-                            <li><a href="#" class="sub-link">Parceiros</a></li>
-                        </ul>
-                    </li>
-                    <li id="sub-mobile"><a href="#">Cursos <i class='bx bx-chevron-down'></i></a>
-                        <ul class="sub-menu">
-                            <li class="sub-li">
-                                <a href="#" class="sub-link">Etim<i class='bx bx-chevron-right'></i></a>
-                                <ul id="sub-menu-ul">
-                                    <li><a href="">o que é Etim ?</a></li>
-                                    <li><a href="">Desenvolvimento de sistemas</a></li>
-                                    <li><a href="">Administração</a></li>
-                                    <li><a href="">Nutrição e dietética</a></li>
-                                </ul>
+    
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                   <ul class="nav__list">
+                      <li><a href="#" class="nav__link">Home</a></li>
+    
+                      <li><a href="#" class="nav__link">Company</a></li>
+    
+                      <!--=============== DROPDOWN 1 ===============-->
+                      <li class="dropdown__item">
+                         <div class="nav__link">
+                            Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                         </div>
+    
+                         <ul class="dropdown__menu">
+                            <li>
+                               <a href="#" class="dropdown__link">
+                                  <i class="ri-pie-chart-line"></i> Overview
+                               </a>                          
                             </li>
-                            <li><a href="#" class="sub-link">Desenvolvimento de sistemas</a></li>
-                            <li><a href="#" class="sub-link">Gastronomia</a></li>
-                            <li><a href="#" class="sub-link">Nutrição e dietética</a></li>
-                            <li><a href="#" class="sub-link">Segurança do trabalho</a></li>
-                            <li><a href="#" class="sub-link">Enfermagem</a></li>
-                            <!--<li><a href="#" class="sub-link">Planos de cursos</a></li>-->
-                        </ul>
-                    </li>
-                    <li id="sub-mobile"><a href="#">Alunos</a>
-                        <ul class="sub-menu">
-                            <li><a href="#" class="sub-link">Horário das aulas</a></li>
-                            <li><a href="#" class="sub-link">Manual do aluno</a></li>
-                            <li><a href="#" class="sub-link">Cardápio de almoço</a></li>
-                            <li><a href="#" class="sub-link">NSA online</a></li>
-                            <li><a href="#" class="sub-link">Estágios</a></li>
-                            <li><a href="#" class="sub-link">Oportunidade</a></li>
-                        </ul>
-                    </li>
-                    <li id="sub-mobile">
-                        <a href="">Secretaria <i class='bx bx-chevron-down'></i></a>
-                        <ul class="sub-menu">
-                            <li><a href="#" class="sub-link">Comunicados</a></li>
-                        </ul>
-                    </li>
-                    <li id="sub-mobile">
-                        <a href="">Diretoria de serviços <i class='bx bx-chevron-down'></i></a>
-                        <ul class="sub-menu">
-                            <li><a href="#" class="sub-link">Concursos públicos</a></li>
-                            <li><a href="#" class="sub-link">Processos seletivos</a></li>
-                            <li><a href="#" class="sub-link">Docentes</a></li>
-                            <li><a href="#" class="sub-link">Gestão pedagógica</a></li>
-                        </ul>
-                    </li>
     
-                    <li id="sub-mobile"><a href="">Eventos</a></li>
+                            <li>
+                               <a href="#" class="dropdown__link">
+                                  <i class="ri-arrow-up-down-line"></i> Transactions
+                               </a>
+                            </li>
     
-                    <li id="sub-mobile">
-                        <a href="">Vestibulinho <i class='bx bx-chevron-down'></i></a>
-                        <ul class="sub-menu">
-                            <li><a href="#" class="sub-link">Inscrição</a></li>
-                            <li><a href="#" class="sub-link">Calendário</a></li>
-                            <li><a href="#" class="sub-link">Manual do candidato</a></li>
-                            <li><a href="#" class="sub-link">Dúvidas frequentes</a></li>
-                        </ul>
-                    </li>
-                    <li id="sub-mobile"><a href="#" style="border-right: none;">APM<i class='bx bx-chevron-down'></i></a>
-                        <ul class="sub-menu">
-                            <li><a href="#" class="sub-link">O que é a APM</a></li>
-                            <li><a href="#" class="sub-link">Membros</a></li>
-                            <li><a href="#" class="sub-link">Benfeitorias</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <li class="dropdown__subitem">
+                               <div class="dropdown__link">
+                                  <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                               </div>
+    
+                               <ul class="dropdown__submenu">
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                        <i class="ri-file-list-line"></i> Documents
+                                     </a>
+                                  </li>
+          
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                        <i class="ri-cash-line"></i> Payments
+                                     </a>
+                                  </li>
+          
+                                  <li>
+                                     <a href="#" class="dropdown__sublink">
+                                        <i class="ri-refund-2-line"></i> Refunds
+                                     </a>
+                                  </li>
+                               </ul>
+                            </li>
+                         </ul>
+                      </li>
+                      
+                      <li><a href="#" class="nav__link">Products</a></li>
+    
+                      <!--=============== DROPDOWN 2 ===============-->
+                      <li class="dropdown__item">
+                         <div class="nav__link">
+                            Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                         </div>
+    
+                         <ul class="dropdown__menu">
+                            <li>
+                               <a href="#" class="dropdown__link">
+                                  <i class="ri-user-line"></i> Profiles
+                               </a>                          
+                            </li>
+    
+                            <li>
+                               <a href="#" class="dropdown__link">
+                                  <i class="ri-lock-line"></i> Accounts
+                               </a>
+                            </li>
+    
+                            <li>
+                               <a href="#" class="dropdown__link">
+                                  <i class="ri-message-3-line"></i> Messages
+                               </a>
+                            </li>
+                         </ul>
+                      </li>
+    
+                      <li><a href="#" class="nav__link">Contact</a></li>
+                   </ul>
+                </div>
+             </nav>
         </div><!--box-mobile-->
+        <div class="boxSearch-mobile">
+            <input type="text" placeholder="O que deseja localizar?">
+            <i class='bx bx-search-alt-2'></i>
+        </div>
     </div><!--cps-header-->
-
-    <div class="boxSearch-mobile">
-        <input type="text" placeholder="O que deseja localizar?">
-        <i class='bx bx-search-alt-2'></i>
-    </div>
 
     <header>
         <nav class="navbar">
@@ -490,5 +508,7 @@
 
     <script src="js/SlideCps.js"></script>
     <script src="js/mobile.js"></script>
+     <!--=============== MAIN JS ===============-->
+     <script src="assets/js/main.js"></script>
 </body>
 </html>
