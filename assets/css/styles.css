@@ -132,7 +132,6 @@ a {
 /* Navigation for mobile devices */
 @media screen and (max-width: 1118px) {
   .nav__menu {
-    position: fixed;
     left: 0;
     top: 2.5rem;
     width: 100%;
@@ -142,6 +141,7 @@ a {
     opacity: 0;
     transition: top .4s, opacity .3s;
     margin-top: 60px;
+    z-index: 999;
   }
   .nav__menu::-webkit-scrollbar {
     width: 0;

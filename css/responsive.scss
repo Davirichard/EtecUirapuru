@@ -29,11 +29,8 @@
       }
 
     .cps-header-container{
-      position: sticky;
-      top: 0;
       width: 100%;
       background-color: white;
-      z-index: 999;
     }
     
 .cps-header-container .nav-list {
@@ -50,6 +47,48 @@
     padding: 0 10px;
     max-height: 100vh; /* Define a altura máxima do menu como 100% da altura da viewport */
     overflow-x: none;
+}
+
+.globalTopBar .nav{
+  display: block;
+}
+
+.globalTopBar .boxTopBar{
+  display: none;
+}
+
+.globalTopBar .nav .social-mobile{
+  justify-content: space-around;
+  padding: 20px 20px;
+}
+
+.globalTopBar .nav .social-mobile  .redeSociais a{
+  margin-left: 7px;
+}
+
+.globalTopBar .nav .social-mobile  .redeSociais i{
+  background-color: #808080;
+  border-radius: 5px;
+  color: var(--color-terciary);
+  font-size: 19px;
+  padding: 5px;
+}
+
+
+.globalTopBar .nav .social-mobile .acessibilidade{
+  display: flex;
+  margin-right: 20px;
+  padding: 20px 0;
+}
+
+
+.globalTopBar .nav .social-mobile  .acessibilidade img{
+  cursor: pointer;
+  margin:0 10px;
+  padding: 5px;
+  transition: 0.1s;
+  background-color: #808080;
+  border-radius: 5px;
 }
 
 /* Estilos para os itens da navbar */

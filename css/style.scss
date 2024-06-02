@@ -120,6 +120,10 @@ main .container{
     scale: 1.1;
 }
 
+.globalTopBar .nav{
+  display: none;
+}
+
 .cps-header-container{
     max-width: 1150px;
     height: auto;

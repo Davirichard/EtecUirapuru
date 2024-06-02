@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.274" height="26.274" viewBox="0 0 26.274 26.274">
+  <g id="mod-night" transform="translate(-1020.363 -554.363)">
+    <path id="Subtração_1" data-name="Subtração 1" d="M12.5,25A12.5,12.5,0,0,1,3.661,3.661,12.418,12.418,0,0,1,12.5,0c.1,0,.206,0,.309,0C12.7,2.778,12.7,6.809,12.8,12.69c.092,5.692.208,9.6.365,12.293C12.934,24.995,12.712,25,12.5,25Z" transform="translate(1021 555)" fill="#fff"/>
+    <g id="Elipse_5" data-name="Elipse 5" transform="translate(1021.671 554.363) rotate(3)" fill="none" stroke="#fff" stroke-width="2">
+      <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+      <circle cx="12.5" cy="12.5" r="11.5" fill="none"/>
+    </g>
+  </g>
+</svg>
